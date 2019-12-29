@@ -11,7 +11,7 @@ export default class App extends React.Component {
   render() {
     return (
       <SafeAreaView style={styles.mainContainer}>
-        <StatusBar barStyle="dark-content" />
+        <StatusBar barStyle="dark-content" backgroundColor={primary.blue_background} hidden />
         {/* the app will start by display main screen */}
         <MainScreen /> 
       </SafeAreaView>
